@@ -106,7 +106,7 @@ document.getElementById('get-item-info-btn').addEventListener('click', getItemIn
 function getRecommendations() {
     const items = document.getElementById('recommendation-items-input').value.trim().toLowerCase();
     if (!items) {
-        alert('추천할 아이템들을 입력해주세요!');
+        alert('아이템 이름을 입력해주세요!');
         return;
     }
 
