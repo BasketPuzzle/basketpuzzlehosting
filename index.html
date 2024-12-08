@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basket Puzzle</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="outer-container">
+        <div class="inner-container">
+            <header>
+                <h1>🛒 Basket Puzzle</h1>
+                <p>"Analyze Shopping Trend"</p>
+            </header>
+
+            <main>
+                <section class="card">
+                    <h2>Top 10 Items</h2>
+                    <button id="get-top-items-btn" class="btn">Top 10 Items</button>
+                    <ul id="top-items-list"></ul>
+                </section>
+
+                <section class="card">
+                    <h2>Item Details</h2>
+                    <div class="input-group">
+                        <input id="item-name-input" type="text" placeholder="Enter item name">
+                        <button id="get-item-info-btn" class="btn">Get Details</button>
+                    </div>
+                    <div id="item-info"></div>
+
+                </section>
+
+                <section class="card">
+                    <h2>Recommendations</h2>
+                    <input type="text" id="recommendation-items-input" placeholder="Enter items for recommendations (comma separated)">
+                    <button id="get-recommendations-btn" class="btn">Get Recommendations</button>
+                    <ul id="recommendations-list"></ul>
+                </section>
+            </main>
+
+            <footer>
+              <p>© 2024 Basket Puzzle. All rights reserved.</p>
+              <p>
+                  <a href="https://github.com/BasketPuzzle/BasketPuzzle-FE/" target="_blank" class="github-link">
+                      <img src="https://cdn.jsdelivr.net/npm/simple-icons/icons/github.svg" alt="GitHub" class="github-icon">
+                      Visit our GitHub
+                  </a>
+              </p>
+          </footer>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
